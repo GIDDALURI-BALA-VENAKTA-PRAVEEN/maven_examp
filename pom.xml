@@ -8,6 +8,19 @@
 
 <url>D:/maven_pro/maven_yt_pro/target</url>
 
+<distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>private release repo</name>
+		<url>http://13.201.98.128:8081/repository/private_maven_repo/</url>
+	</repository>
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>private_maven_repo</name>
+		<url>http://13.201.98.128:8081/repository/private_maven_repo/</url>
+	</snapshotRepository>
+</distributionManagement>
+
 <dependencies>
 <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 <dependency>
