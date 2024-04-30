@@ -12,12 +12,12 @@
 	<repository>
 		<id>nexus</id>
 		<name>private release repo</name>
-		<url>http://13.201.98.128:8081/repository/private_maven_repo/</url>
+		<url>http://13.233.91.198:8081/repository/maven_private_release_repo//</url>
 	</repository>
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>private_maven_repo</name>
-		<url>http://13.201.98.128:8081/repository/private_maven_repo/</url>
+		<url>http://13.233.91.198:8081/repository/maven_private_snapshot_repo//</url>
 	</snapshotRepository>
 </distributionManagement>
 
